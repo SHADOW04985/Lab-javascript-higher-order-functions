@@ -3,7 +3,8 @@ const numberArray=[9,242,35,67,89,54,1226,80,19];
 
 // Function #1: Array Slice
 function slice() {
-    let modifiedFood = foods.slice(1,4);
+    let modifiedFood = foods
+    modifiedFood = foods.slice(1,4);
     document.getElementById("p1").innerText = "["+modifiedFood+"]"
 
 }
